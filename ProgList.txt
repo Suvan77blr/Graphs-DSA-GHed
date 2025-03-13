@@ -1,0 +1,10 @@
+
+{
+    commit pattern :
+    P\d - ${ProbSta}_${date}
+
+    Desc of the problem. <if-required>
+}
+
+-> Graph Programs List :-
+

@@ -1,0 +1,3 @@
+
+# Excluding all .exe files from being pushed.
+*.exe
