@@ -12,3 +12,8 @@ P00 : Initialization of Graphs
     - Adjacency Matrix. + weighted-Matrix
     - Adjacency Lists.
     - Adjacency Lists w/ Edge Costs.
+
+P01 : Graph Traversals
+    - BFS.
+    - Recursive DFS.
+    - Iterative DFS.
