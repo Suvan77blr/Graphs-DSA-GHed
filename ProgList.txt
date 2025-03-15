@@ -23,4 +23,8 @@ P02 : Counting the Number of Provinces.
 
 P03 : Counting Islands ('1's together + 8-adj).
 
-P04 : Flood-FIll Algorithm => 4-adj & color-matching-updation.
+P04 : Flood-FIll Algorithm 
+    => 4-adj & color-matching-updation.
+
+P05 : Rotten Oranges 
+    => special storing format [ <{r,c},time> ] & 4-adj.
