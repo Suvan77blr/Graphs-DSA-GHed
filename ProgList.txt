@@ -17,3 +17,8 @@ P01 : Graph Traversals
     - BFS.
     - Recursive DFS.
     - Iterative DFS.
+
+P02 : Counting the Number of Provinces.
+    => no of graph components.
+
+P03 : Counting Islands ('1's together + 8-adj).
