@@ -28,3 +28,14 @@ P04 : Flood-FIll Algorithm
 
 P05 : Rotten Oranges 
     => special storing format [ <{r,c},time> ] & 4-adj.
+
+P06 : Cycle Detection
+    > 1 : Using BFS.
+    > 2 : Using DFS.
+
+
+(Other List of similar Sums)    
+* Island Count.
+* Island Area.
+* Island Perimeter.
+* Max possible fishes.
