@@ -33,6 +33,14 @@ P06 : Cycle Detection
     > 1 : Using BFS.
     > 2 : Using DFS.
 
+P07 : Distance Matrix reltd.
+    > 1 : Distance of Nearest cell having '1'.
+    > 2 : 0-1 Matrix Problem.
+
+P08 : Problems based on the BOUNDARY checking.
+    > 1 : Surrounded Regions.
+    > 2 : Enclaved Regions.
+    
 
 (Other List of similar Sums)    
 * Island Count.
