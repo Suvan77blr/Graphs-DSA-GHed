@@ -43,6 +43,14 @@ P08 : Problems based on the BOUNDARY checking.
     
 P09 : Distinct Islands Count.
 
+P10 : Bipartite Graph.
+    > 1 : Using BFS.
+    > 2 : Using DFS.
+
+
+
+
+    
 (Other List of similar Sums)    
 * Island Count.
 * Island Area.
