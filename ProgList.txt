@@ -41,6 +41,7 @@ P08 : Problems based on the BOUNDARY checking.
     > 1 : Surrounded Regions.
     > 2 : Enclaved Regions.
     
+P09 : Distinct Islands Count.
 
 (Other List of similar Sums)    
 * Island Count.
