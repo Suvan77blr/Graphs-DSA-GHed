@@ -18,12 +18,14 @@ int main(void)
     // cout << "Enter the vertex-count & edge-count : ";
     cin >> n >> m;
 
-    vector< vector<int> > adjList;
+    vector< vector<int> > adjList(n, vector<int>(m));
 
+    // OR earlier initialization :-
+    // vector< vector<int> > adjList(n);
     // Initializing each of the 'n' entries to repr empty vectors.
-    for(int i=1; i<=n; i++){
-        adjList[i] = vector<int>();
-    }
+    // for(int i=1; i<=n; i++){
+        // adjList[i] = vector<int>();
+    // }
     // cout << "Enter the " << m << " edges (vi, vj, cij) : " << endl;
     
     // int a, b, c;

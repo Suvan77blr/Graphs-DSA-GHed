@@ -14,17 +14,17 @@ class Solution {
 
 int main(void)
 {
-    int n;
+    int n, m;
     // cout << "Enter the vertex-count : ";
-    cin >> n;
+    cin >> n >> m;
 
-    vector< vector<int> > adjMat (n, vector<int>(n, 0));
+    vector< vector<int> > adjMat (n, vector<int>(m, 0));
     // cout << "Enter the " << n <<"x" << n << " AdjMat : " << endl;
     
     // int a, b, c;
     // int x;
     for(int i=0; i<n; i++) {
-        for(int j=0; j<n; j++) {
+        for(int j=0; j<m; j++) {
             // cin >> x;
             // adjMat[i][j] = x;
             cin >> adjMat[i][j];
