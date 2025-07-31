@@ -1,11 +1,17 @@
 {
- 
     "version": "2.0.0",
     "tasks": [
         {
             "label": "compile and run",
             "type": "shell",
-            "command": "g++ -o ${fileBasenameNoExtension}.exe ${file} 2> output.txt && ./${fileBasenameNoExtension}.exe < input.txt > output.txt 2> output.txt",
+            "command": "g++ -o ${fileBasenameNoExtension}.exe ${file} 2> output.txt && ${fileBasenameNoExtension}.exe < input.txt > output.txt 2>&1",
+            "options": {
+                "shell": {
+                    "executable": "cmd.exe",
+                    "args": ["/c"]
+                }
+            },
+            "problemMatcher": [],
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -13,3 +19,19 @@
         }
     ]
 }
+
+// Linux-Style.
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//         {
+//             "label": "compile and run",
+//             "type": "shell",
+//             "command": "g++ -o ${fileBasenameNoExtension}.exe ${file} 2> output.txt && ./${fileBasenameNoExtension}.exe < input.txt > output.txt 2> output.txt",
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             }
+//         }
+//     ]
+// }
